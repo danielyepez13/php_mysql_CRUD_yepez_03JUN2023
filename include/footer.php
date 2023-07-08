@@ -1,4 +1,3 @@
-   </main>
     
 
     <footer class="container-fluid">

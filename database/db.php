@@ -5,5 +5,5 @@ $conn = mysqli_connect(
     'root',
     '',
     'php_mysql_crud_yepez'
-) or die (mysqli_error($conn));
+) or die (mysqli_error($mysqli));
 ?>
