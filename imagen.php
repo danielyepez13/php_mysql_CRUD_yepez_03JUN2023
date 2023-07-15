@@ -1,6 +1,7 @@
 <?php
     include('database/db.php');
-    $query = "SELECT imagen FROM task WHERE id = 1";
+    $id = $_GET['id'];
+    $query = "SELECT imagen FROM task WHERE id = $id";
     $result = mysqli_query($conn, $query);
     $imgData = mysqli_fetch_assoc($result);
     header("Content-type: image/jpg"); 
